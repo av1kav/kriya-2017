@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/custom.css">
+	<link rel="stylesheet" href="../styles/flickity.min.css">  
+	
+	<title>Paper Presentation</title>
+  
+  </head>
+    
+  <body onload="preloader()" style="background-image:url('../images/mars.jpg')"> 
+
+  <div style="position: relative">
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="../sponsors/all.png"/>
+	</div>
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+  
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div><a style="display: none"  href="index.html">
+		 
+		</a>
+		</div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-white">
+		<ul>
+				<li class="white"><a href="../index.html">Home</a></li>
+				<li class="white"><a href="../about.html">About</a></li>
+				<li class="white"><a href="../events.html">Events</a></li>
+				<li class="white"><a href="../workshops.html">Workshops</a></li>
+				<li class="white"><a href="../register.html">Register</a></li>
+				<li class="white"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="white"><a href="../team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="../index.html">Home</a></li>
+				<li class="black"><a href="../about.html">About</a></li>
+				<li class="black"><a href="../events.html">Events</a></li>
+				<li class="black"><a href="../workshops.html">Workshops</a></li>
+				<li class="black"><a href="../register.html">Register</a></li>
+				<li class="black"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="../team.html">Our Team</a></li>
+			</ul>	
+	</div>
+	
+	<div class="workshop-pane">
+		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Paper presentation<h1></div>
+		<h1>Association: </h1><p>Civil Engineering Association</p><br>
+		<h1>Contact Information</h1><p>
+			R. Aruljothi <br>
+			Mob: 8754921851 	
+		</p><br>
+		<h1>Event Description</h1><p>
+			Garment deconstruction is all about converting old garments into fashionable
+			new ones. Participants will get to discover their own creativeness, which will
+			be showcased in the new styles they create. Gives an idea on how to make good usem
+			of old garments, that will otherwise be useless.
+		</p><br>
+		<h1>Event Venue</h1><p>Quadrangle</p><br>
+		<h1>Rules</h1><ul>
+			<li>Each team should consist of 2 members</li>
+			<li>Abstract of about 1 or 2 pages should be sent by mail to sec.cea2016.psgtech@gmail.com within 23.2.2017.</li>
+			<li>Abstract must be brief, precise and should be in IEEE format.</li>
+			<li>Candidates must include their name, college name and contact details with the abstract.</li>
+			<li>Teams will be selected based on their abstract.</li>
+			<li>Selected candidates will be intimated by mail.</li>
+			<li>Each team should present their paper for 5 minutes and queries will be asked for 5 minutes.</li>
+			<li>Judges decision will be final.</li>
+		</ul><br>
+		<h2>Round 1: Connexions</h2><p>
+			Candidates should present their topics in brief within 5 minutes and queries will be asked for 5 minutes in their presentation. 
+			<br>
+			The topics for presentation are as follows: 
+			<ul>
+				<li>Green building</li>
+				<li>Repair and Rehabilitation of structures</li>
+				<li>Sustainable development in construction industry</li>
+				<li>Automation in construction field</li>
+				<li>Nano technology in civil Engineering</li>
+				<li>Structural seismic safety and fragility analysis</li>
+				<li>Under water construction</li>
+				<li>Environmental impacts due to construction and remedial measures</li>
+				<li>Metro projects</li>
+				<li>Intelligent transport system</li>
+				<li>Innovative technologies in Sky scrappers</li>
+				<li>Case study on a hydroelectric project</li>
+				<li>Bacterial concrete</li>
+				<li>Sky bus technology</li>
+				<li>Case study on air pollution in New Delhi.</li>
+			</ul>
+		</p><br>
+	</div>
+  <!-- Kriya 17 Scripts-->
+	<script src="../scripts/kriya.js"></script>
+</body>
+</html>

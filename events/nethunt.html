@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/custom.css">
+	<link rel="stylesheet" href="../styles/flickity.min.css">  
+	
+	<title>Net Hunt</title>
+  
+  </head>
+    
+  <body onload="preloader()" style="background-image:url('../images/mars.jpg')"> 
+
+  <div style="position: relative">
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="../sponsors/all.png"/>
+	</div>
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+  
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div><a style="display: none"  href="index.html">
+		 
+		</a>
+		</div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-white">
+		<ul>
+				<li class="white"><a href="../index.html">Home</a></li>
+				<li class="white"><a href="../about.html">About</a></li>
+				<li class="white"><a href="../events.html">Events</a></li>
+				<li class="white"><a href="../workshops.html">Workshops</a></li>
+				<li class="white"><a href="../register.html">Register</a></li>
+				<li class="white"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="white"><a href="../team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="../index.html">Home</a></li>
+				<li class="black"><a href="../about.html">About</a></li>
+				<li class="black"><a href="../events.html">Events</a></li>
+				<li class="black"><a href="../workshops.html">Workshops</a></li>
+				<li class="black"><a href="../register.html">Register</a></li>
+				<li class="black"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="../team.html">Our Team</a></li>
+			</ul>	
+	</div>
+	
+	<div class="workshop-pane">
+		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">net hunt<h1></div>
+		<h1>Association: </h1><p>COMPUTER APPLICATIONS ASSOCIATION </p><br>
+		<h1>Contact Information</h1><p>
+			Secretary/Convenor: KEERTHIVASAN D. <br>
+			keerthivasanpsgtech@gmail.com <br>
+			Mob: 9677748193	
+		</p><br>
+		<h1>Event Description</h1><p>
+			A visual representation is far more descriptive than words! But to be a tech-wizard here, you need to think out of the box by reading the picture than just take a look at it.Your riposteto the given image may be a single term or a group of words is all that you need sometimes! This is an event which will accelerate the thinking ability of the participant to the next level and push the brain to the edge of the visual creativity. 
+		</p><br>
+		<h1>Event Venue</h1><p>Quadrangle</p><br>
+		<h1>Rules</h1><ul>
+			<li>Guess the Technical Term from Image Displayed</li>
+			<li>Answers are to be entered in Textbox Provided</li>
+			<li>Clues will be provided for every image after few tries</li>
+			<li>The answers should or will not contain any special characters (, + * / <> - $ &). </li>
+			<li>Ignore the space between the words in the answer. (Example: “Net-Hunt” must be entered as “nethunt”, 1 must be entered as “one”). </li>
+		</ul><br>
+	</div>
+  <!-- Kriya 17 Scripts-->
+	<script src="../scripts/kriya.js"></script>
+</body>
+</html>

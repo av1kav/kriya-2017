@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/custom.css">
+	<link rel="stylesheet" href="../styles/flickity.min.css">  
+	
+	<title>Rescue Misiion</title>
+  
+  </head>
+    
+  <body onload="preloader()" style="background-image:url('../images/mars.jpg')"> 
+
+  <div style="position: relative">
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="../sponsors/all.png"/>
+	</div>
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+  
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div><a style="display: none"  href="index.html">
+		 
+		</a>
+		</div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-white">
+		<ul>
+				<li class="white"><a href="../index.html">Home</a></li>
+				<li class="white"><a href="../about.html">About</a></li>
+				<li class="white"><a href="../events.html">Events</a></li>
+				<li class="white"><a href="../workshops.html">Workshops</a></li>
+				<li class="white"><a href="../register.html">Register</a></li>
+				<li class="white"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="white"><a href="../team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="../index.html">Home</a></li>
+				<li class="black"><a href="../about.html">About</a></li>
+				<li class="black"><a href="../events.html">Events</a></li>
+				<li class="black"><a href="../workshops.html">Workshops</a></li>
+				<li class="black"><a href="../register.html">Register</a></li>
+				<li class="black"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="../team.html">Our Team</a></li>
+			</ul>	
+	</div>
+	
+	<div class="workshop-pane">
+		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Rescue Mission<h1></div>
+		<h1>Association: </h1><p>Astronomy Club</p><br>
+		<h1>Contact Information</h1><p>
+			Secretary/Converyor: Aagash R<br>
+			Contact: 986537711
+		</p><br>
+		<h1>Event Description</h1><p>
+			A crew of astronaut was sent to the mars to research the resources available on the mars. 
+			The space craft on which the crew has been sent was repaired and the crew was unable to repair 
+			the space craft. The communication to the earth was also lost. The scientists in the earth can’t be 
+			able to track the location of the astronaut.  The last message received from their clue contains few 
+			information of the location of the crew. 
+			The participant has to design the bot to rescue the astronauts.  
+		</p><br>
+		<h1>Event Venue</h1><p>Quadrangle</p><br>
+		<h1>Rules</h1><ul>
+			<li>The maximum dimension of the bot should be less than 20cmx20cmX20cm.</li> 
+			<li>The potential difference between any two in the bot should be less than or equal to 12V.</li> 
+			<li>The	team should contain a maximum of four members.</li>  
+			<li>Arena will be given in the website and the points for each task and clear statement will be given in the website.</li>
+		</ul><br>
+		<h2>Round 1: TDP Round</h2><p>
+          The team has to send the Team Description Paper to the event email id. The best TDP 
+		  will be selected for the next round and will be announced to the team.
+		</p><br>
+		<h2>Round 2: Manual Tasks</h2><p>
+         The scientist encrypted the last data from their astronomer’s crew and found some possible 
+		 ways to reach their crew. The bot has to trace possible ways. The possible ways were indicated 
+		 on the arena as a black line. The live feed of the arena will be given to respective teams by 
+		 the organizing committee. The water bodies will be indicated as the blue circles. While the bot 
+		 traces the path, the bot has to indicate the presence of water bodies nearby with a blue LED.  
+		 <br>
+		 The maximum time to complete the round is 5 minutes. Every second saved by the team will be
+		 as a point to the team. The four team with the maximum score will be qualified to the next round.
+		 Points for the round will be given later.
+		</p><br>
+		<h2>Round 3: Autonomous Tasks</h2><p>
+		 The position of the crew will be indicated as the red circle on the arena. The bot should be placed in the starting point. The position of the crew will be informed to the team at the time of placing their bot on the arena. The bot should trace the crew and indicate their presence with a Red LED. This task has to completely don with autonomous works and some of the works has to be done manually.   
+		 Maximum time to complete the tasks is 10m.
+		 Points for the round will be given later.
+		</p><br>
+		
+	</div>
+  <!-- Kriya 17 Scripts-->
+	<script src="../scripts/kriya.js"></script>
+</body>
+</html>

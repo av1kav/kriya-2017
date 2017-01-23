@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/custom.css">
+	<link rel="stylesheet" href="../styles/flickity.min.css">  
+	
+	<title>Venture The Labyrinth</title>
+  
+  </head>
+    
+  <body onload="preloader()" style="background-image:url('../images/mars.jpg')"> 
+
+  <div style="position: relative">
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="../sponsors/all.png"/>
+	</div>
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+  
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div><a style="display: none"  href="index.html">
+		 
+		</a>
+		</div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-white">
+		<ul>
+				<li class="white"><a href="../index.html">Home</a></li>
+				<li class="white"><a href="../about.html">About</a></li>
+				<li class="white"><a href="../events.html">Events</a></li>
+				<li class="white"><a href="../workshops.html">Workshops</a></li>
+				<li class="white"><a href="../register.html">Register</a></li>
+				<li class="white"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="white"><a href="../team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="../index.html">Home</a></li>
+				<li class="black"><a href="../about.html">About</a></li>
+				<li class="black"><a href="../events.html">Events</a></li>
+				<li class="black"><a href="../workshops.html">Workshops</a></li>
+				<li class="black"><a href="../register.html">Register</a></li>
+				<li class="black"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="../team.html">Our Team</a></li>
+			</ul>	
+	</div>
+	
+	<div class="workshop-pane">
+		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Venture the Labyrinth<h1></div>
+		<h1>Association: </h1><p>Astronomy Club</p><br>
+		<h1>Contact Information</h1><p>
+			Secretary/Converyor: Aagash R<br>
+			Contact: 986537711
+		</p><br>
+		<h1>Event Description</h1><p>
+			Ever seen Ridley Scott's The Martian!! Now it is time for you to fill in the shoes of Mark 
+			Watney. Isolated and left by your team for dead in the Red planet, you have No Way Out! Or 
+			is there a chance? Where there is a will there is a way! Build a Rover from scratch and get 
+			to the Tesseract to communicate with ISRO!! You've got only two days of supply left and to 
+			make things difficult, the Rover should be automated at nights to save fuel. So get ready 
+			for the venture Bot Geeks and get the hell outta Mars.   
+		</p><br>
+		<h1>Event Venue</h1><p>Quadrangle</p><br>
+		<h1>Rules</h1><ul>
+			<li>A Team must contain a maximum of 4 members. </li> 
+			<li>Two robots are designed one with manually controlled and one functioning autonomous (i.e., line following robot).</li> 
+			<li>The manually controlled robot can be wired or wireless.</li>  
+			<li>The maze solving robot should not exceed the dimension of 120mm*120mm*300mm.</li>
+			<li>No Pre-defined kits (like LEGO, Tetrix, etc.) must be used.</li>
+			<li>Once the timer starts, the participants are not allowed to touch the robot.<li>
+			<li>The power source of the robot must be on-board and must not exceed 12V.</li>
+			<li>The organizers decision shall be treated as final.</li>
+			<li>The organizers have the right to change any of the above rules if it need to be.</li>
+		</ul><br>
+		<h2>Round 1</h2><ul>
+			<li>A cube with through hole at the centre will be preloaded on the manual robot. The robot should start its run from the START point.</li> 
+			<li>The aim of this round is to solve the maze. </li> 
+			<li>The robot should pass the cube to the line follower robot. </li>  
+			<li>The line follower robot crosses the obstacles containing loops and turns and places the cube at target automatically</li>
+		</ul><br>
+		<h2>Round 2</h2><ul>
+			<li>In this round, four cubes with through hole at the centre will be provided each of different colors like red, blue, green and white.</li> 
+			<li>The manual robot should pick these cubes placed at different places of the arena and solve the maze. </li> 
+			<li>The robot should pass these cubes to the line follower robot which places the cube at target automatically.</li>  
+			<li>The line follower robot carries the cube crossing the obstacles containing loops, perfect turns not minimum of 60 deg, See-Saw elevated to 15 deg (with tolerance ±2deg) and crossed junctions. </li>
+			<li>Then the cubes should be placed on the target places of their respective colors.</li> 
+		</ul><br>
+		<h2>Round 3</h2><p>
+		 The position of the crew will be indicated as the red circle on the arena. The bot should be placed in the starting point. The position of the crew will be informed to the team at the time of placing their bot on the arena. The bot should trace the crew and indicate their presence with a Red LED. This task has to completely don with autonomous works and some of the works has to be done manually.   
+		 Maximum time to complete the tasks is 10m.
+		 Points for the round will be given later.
+		</p><br>
+		<h1>Arena Details</h1><ul>
+			<li>The size of the arena will be 18ft * 18ft. </li> 
+			<li>The arena has two portions: Maze solving and line following. </li> 
+			<li>The manually controlled robot starts its run from the START box and the line follower robot starts at the black box.</li>  
+			<li>The maze solving path will be either mud or flat surface. The arena surface will be declared on spot. </li>
+			<li>The START and END point of the maze path will be elevated of 15 deg.</li>
+			<li>The sides of the cube are 40mm. </li>
+			<li>The line following path will be white line on black background. </li>
+			<li>The thickness of the line will be 30 mm.</li>
+		</ul><br>
+		<h1>Judging Criteria</h1>
+			
+			<p>The points will be given as per the timing basis and per the following conditions:</p> 
+  
+			<ul>
+			<li>Picking the ball - 10 points (each)</li> 
+			<li>Solving the maze - 25 points </li> 
+			<li>Placing the ball on line follower robot - 25 points (each)</li>  
+			</ul>
+			
+			<p>Solving the line:</p>
+			
+			<ul>
+			<li>Loops  - 10 points (each) </li>
+			<li>See-Saw - 15 points</li>
+			<li>Reaching the FINISH line - 20 points</li>
+			<li>Shooting the target - 10, 20, 40 points(explained later)</li>
+			<li>Damaging the arena will deduct 10 points from score.</li>
+			</ul>
+			
+			<p>The shooting target will be linear. First 300 mm from the ground level will be provided 
+			10 points. The next 300 mm will be provided 20 points. The next 300 mm will be provided 40 
+			points.</p>
+	</div>
+  <!-- Kriya 17 Scripts-->
+	<script src="../scripts/kriya.js"></script>
+</body>
+</html>

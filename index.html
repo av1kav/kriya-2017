@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Font-Awesome CDN -->
+	<!--<script src="https://use.fontawesome.com/3367bbd21a.js"></script>-->
+	
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#FFFFFF">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/custom.css">
+	<link rel="stylesheet" href="styles/flickity.min.css">   
+	
+	
+  <title>Kriya '17</title>
+  </head>
+    
+  <body style="background-image: url('images/back1.jpg')" onload = "preloader()">   
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="sponsors/all.png"/>
+	</div>
+	
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+	
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-black">
+		<ul>
+				<li class="black"><a href="index.html">Home</a></li>
+				<li class="black"><a href="about.html">About</a></li>
+				<li class="black"><a href="events.html">Events</a></li>
+				<li class="black"><a href="workshops.html">Workshops</a></li>
+				<li class="black"><a href="register.html">Register</a></li>
+				<li class="black"><a href="accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="index.html">Home</a></li>
+				<li class="black"><a href="about.html">About</a></li>
+				<li class="black"><a href="events.html">Events</a></li>
+				<li class="black"><a href="workshops.html">Workshops</a></li>
+				<li class="black"><a href="register.html">Register</a></li>
+				<li class="black"><a href="accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="team.html">Our Team</a></li>
+			</ul>	
+	</div>
+
+  <!-- Flickity -->
+  <!-- start flickity carousel -->
+  <br><br>
+	<div class="main-gallery js-flickity" style="background-color: rgba(0,0,0,0.59);" data-flickity-options='{ "cellAlign": "center", "contain": true, "autoPlay": true, "wrapAround": true}'>	
+		<div class="gallery-page">	
+			<div class="flick-content">
+			<h2>INNOVATION MAY BE OTHERS PASSION BUT IT IS OUR PROFESSION!</h2>
+			<p>Kriya – the brainchild of the Students Union – is the conglomeration of elite brains all across the Indian 
+			heartland. With a kaleidoscope of events covering all areas under the firmament, Kriya is the one stop to establish the student's 
+			prowess as the quintessential engineers. The biggest conflux of student's, industry and academia for thoroughly enriching experience, 
+			be it a video conference, guest lecture or workshop, encapsulates the epicenter of Technology for the ultimate salvation!</p>
+			</div>
+		</div>
+		<div class="gallery-page">
+			<div class="flick-content">
+			<h2>PRESTIGIOUS PSG</h2>
+			<p>
+				PSG COLLEGE OF TECHNOLOGY, established in 1951 by that family of visionaries, is an institution par excellence. Rated among the top 
+				Private Engineering College in the country. PSG Tech offers its students unmatched scope and avenues into the field of Engineering.
+				The college today has student strength of over 8000 studying in about 23 Departments. With an able team of experienced faculty, the 
+				college produces a talented set of engineers year after year. The college gives a lot of emphasis on research and development The 
+				College has hosted several International conferences and Symposiums and has been visited by the who's who of the today's world.
+			</p>
+			</div>
+		</div>
+		<div class="gallery-page">
+			<div class="flick-content">
+			<h2>A BRAND NEW WEBPAGE</h2>
+			<p>Over the years, as the technical symposium of Kriya has attracted larger and larger crowds, it became clear that our website
+				needed to scale to accomodate the vast number of users. This new website is built specifically for ease of use, and caters to
+				a wide variety of display sizes, from TV screens to laptops to mobile devices. The page is also the first to be entirely engineered
+				by our very own <a href="team.html">student team</a>, meaning that content is bloat-free, optimized and responsive. 
+			</p>
+			</div>
+		</div>
+	</div>
+  
+  
+  <div class="social-icons">
+		<a href="https://m.facebook.com/Kriya-PSG-TECH-271004386263261/"><span class="icon-facebook2"></span></a>
+		<a href="https://plus.google.com/101622744673530686287"><span class="icon-google-plus2"></span></a>
+		<a href="http://www.twitter.com/psgtechkriya"><span class="icon-twitter"></span></a>
+	</div>
+  
+  <!-- Kriya 17 Scripts-->
+	<script src="scripts/kriya.js"></script>
+	<!-- Flickity -->
+	<script src="scripts/flickity.pkgd.min.js"></script>
+</body>
+</html>

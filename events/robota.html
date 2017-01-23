@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/custom.css">
+	<link rel="stylesheet" href="../styles/flickity.min.css">  
+	
+	<title>Robota Scuttle</title>
+  
+  </head>
+    
+  <body onload="preloader()" style="background-image:url('../images/mars.jpg')"> 
+
+  <div style="position: relative">
+	<!-- Preloader div -->
+	<div class = "show-preloader" id = "preloader">
+		<span class="icon-spinner10" style="clear: both"></span><br>
+		<img src="../sponsors/all.png"/>
+	</div>
+	
+	<!-- Preloader Script -->
+	<script>
+		function preloader(){
+			var preloaderdiv = document.getElementById('preloader');
+			preloaderdiv.className = "hide-preloader";
+		}
+	</script>	
+  
+	<!-- Modal blur container -->
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Modal-->
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome, <span>Guest</span></div>
+		<div class="menuHeading" >REGISTER NOW</div>
+			<div class = "subMenuItem"><h2>Register forms go here</h2>
+				<h3>Name: </h3><input type="textbox" >
+				<button type = "submit">Submit</button>	
+			</div>
+		
+		<div class="menuHeading">MAP</div>
+			<div class = "subMenuItem" >map here please</div>
+		<div class="menuHeading">ALL WORKSHOPS</div>
+			<div class = "subMenuItem" ><img src="schedule.jpg"/></div>
+	</div></div>
+	
+	</div>
+	
+	
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
+	<!-- Kriya-bar -->
+	<div class="kriya-bar"></div><a style="display: none"  href="index.html">
+		 
+		</a>
+		</div>
+	
+	<!-- Navbar -->
+	<div class="navbar-container">
+	<div class="navbar nav-white">
+		<ul>
+				<li class="white"><a href="../index.html">Home</a></li>
+				<li class="white"><a href="../about.html">About</a></li>
+				<li class="white"><a href="../events.html">Events</a></li>
+				<li class="white"><a href="../workshops.html">Workshops</a></li>
+				<li class="white"><a href="../register.html">Register</a></li>
+				<li class="white"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="white"><a href="../team.html">Our Team</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="icon-menu"></span></div>
+	</div>
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="../index.html">Home</a></li>
+				<li class="black"><a href="../about.html">About</a></li>
+				<li class="black"><a href="../events.html">Events</a></li>
+				<li class="black"><a href="../workshops.html">Workshops</a></li>
+				<li class="black"><a href="../register.html">Register</a></li>
+				<li class="black"><a href="../accomodation.html">Accomodation</a></li>
+				<li class="black"><a href="../team.html">Our Team</a></li>
+			</ul>	
+	</div>
+	
+	<div class="workshop-pane">
+		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Robota Scuttle<h1></div>
+		<h1>Association: </h1><p>Instrumentation and Control Engineering Association</p><br>
+		<h1>Contact Information</h1><p>
+			Secretary/Converyor: T A Athish Murugan<br>
+			Contact: 9843776676
+		</p><br>
+		<h1>Event Description</h1><p>
+			Bill Gates once said “The first rule of any technology used in a business is that automation 
+			applied to an efficient operation will magnify the efficiency. The second is that automation applied to an
+			inefficient operation will magnify the inefficiency”. So it is your job to magnify whether your bot or droid
+			is efficient or inefficient.<br>Robota Scuttle is a perfect blend of intricacy and delight. The designing skill as 
+			well as the ideating potential of participants aims at bringing the very best out of them. There can be unexpected 
+			obstacles on the arena but only the fastest and the efficient bots will win the competition. Seeing the fastest, robust 
+			and most efficient bots clear the track will be a visual thrill for any techie!
+		</p><br>
+		<h1>Event Venue</h1><p>Quadrangle</p><br>
+		<h1>Rules</h1><ul>
+			<li>A team can have a maximum of 3 members.</li> 
+			<li>One team member is chosen as the robot handler. Only that team member is permitted to control the robot 
+				during the course of time. All other teammates are expected to stay away from the controller.</li> 
+			<li>Participants who misbehave will be asked to leave the arena and will be disqualified from the contest.</li>  
+			<li>Participants who cause deliberate damage to the track will be disqualified.</li> 
+			<li>The decisions made by the organizing committee are final. Teams should respect their decisions.</li>
+		</ul><br>
+		<h1>Problem Statement</h1><p>
+			A manually controlled bot wired or wireless has to traverse the track full of obstacles and the mushy slopes in the minimum possible time.
+			</p>
+		<h2>Round 1: The Unfeigned Test</h2><ul>
+			In this round, teams will have to present their work and answer subjective queries related to the design of the bot to the jury.
+		</ul><br>
+		<h2>Round 2: The Stratum Test</h2><ul>
+			The selected participants of Round 1 will have to run their bots on a plane surface which will have few bends and curves. The fastest and the most efficient bots will move on to the next round.
+		</ul><br>
+		<h2>Round 3: Finale</h2><p>
+		 The selected teams will compete with each other as they will be taken to an arena where there will be obstacles. The bot that reaches the finish line in short time interval will win the competition.
+		</p><br>
+		<h1>Racetrack</h1><ul>
+			<li>Track width is 400 mm.</li> 
+			<li>The track will have slopes, slits, rotating platform, pit, greasy slopes, muddy water etc</li> 
+			<li>The track design will be shown on the day of the event.</li>  
+			<li>There will be certain obstacles in the race track, which will try to slow the robot.</li>
+		</ul><br>
+		<h1>Robot Specifications</h1>
+			
+			<p>The following would be the size limit for the bot</p> 
+  
+			<ul>
+			<li>Width – 250 mm to 300 mm</li> 
+			<li>Length - 250 mm to 300 mm</li> 
+			<li>Breadth - 250 mm to 300 mm</li>  
+			</ul>
+		
+			<ul>
+			<li>The external control device used is not included in the size constraint.</li>
+			<li>The machine can be wired/wireless.<li>
+			<li>The machine must not be made from any ready-made assembly kits, and it must be powered electrically, use of IC engine is not allowed.<li>
+			<li>The robot can be powered by a power source such as a battery fixed on the robot or by a stationary power source connected to the robot by a chord.</li>
+			<li>Potential provided to the bot should not exceed 24 V.</li>
+			<li>Participants should keep spare batteries else the team will be disqualified if the bot is not ready or stops in between the race.</li>
+			<li>The length of the wire should be long enough to cover the whole arena and the wire should remain slack.</li>
+			</ul>
+			
+			<p>The shooting target will be linear. First 300 mm from the ground level will be provided 
+			10 points. The next 300 mm will be provided 20 points. The next 300 mm will be provided 40 
+			points.</p>
+	</div>
+  <!-- Kriya 17 Scripts-->
+	<script src="../scripts/kriya.js"></script>
+</body>
+</html>
