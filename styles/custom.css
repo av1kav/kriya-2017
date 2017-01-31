@@ -1874,7 +1874,7 @@ ul.dropdown-show li.black{
 	-webkit-user-select: none;
 	-user-select: none;
 	background-image: url("../images/qabtn.png");
-	position: fixed;
+	position: absolute;
 	bottom: 2%;
 	right: 2%; 
 	z-index: 500;
