@@ -1858,10 +1858,10 @@ ul.dropdown-show li.black{
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	padding-right: 4%;
-	margin-right: 2%;
+	/*margin-right: 2%;
 	margin-left: 2%;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px;*/
 	position: absolute;
 	display: block;
 	background-color: lightblue;
